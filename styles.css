@@ -51,16 +51,16 @@ html{
     margin-top: -3rem ;
 }
 
-.content-box{
-    margin: 2em 5rem;
+.page-box{
+    margin: 2em 3rem;
 }
 
-.about-title{
+.subtitle{
     background-color: #1985A1;
     padding: 1rem;
 }
 
-.about-title h2{
+.subtitle h2{
     color: #DCDCDD;
     font-size: 2rem;
     text-align: center;
@@ -76,12 +76,13 @@ html{
     display: flex;
     background-color: #4C5C68;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
-.about-content{
+.content{
     text-align: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 5vh;
     font-size: 21px;
 }
 
@@ -121,4 +122,35 @@ html{
 #next{
     position: absolute;
     right: 15px; top: 400px;
+}
+
+#experience a{
+    text-decoration: none;
+    color: #DCDCDD;
+}
+
+#experience a:hover{
+    cursor: pointer;
+    background-color: #DCDCDD;
+    color:#4C5C68;
+}
+
+.exp-content{
+    background-color: #4C5C68;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 3vh;
+}
+
+.project-image{
+    width: 90px; height: 90px;
+    margin-right: 1.5vw;
+}
+
+.project h3{
+    font-size: 22px;
+    margin-bottom: 1vh;
+}
+.project li{
+    font-size: 20px;
 }
