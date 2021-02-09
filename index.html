@@ -21,7 +21,17 @@
             </div>
         </header>
     </div>
-    
+    <div class="hero-wrapper">
+        <div id="carousel">
+            <ul>
+            <li><img src="imagenes/coding.jpg" class="image"></li>
+            <li><img src="imagenes/reunion.jpg" class="image"></li>
+            <li><img src="imagenes/newyork.jpg" class="image"></li>
+            </ul>
+            <button class="button" id="prev" onclick="show(-1)">&lt;</button>
+            <button class="button" id="next" onclick="show(+1)">&gt;</button>	
+        </div>
+    </div>
     <div class="content-box">
     <section id=about-me>
         <div class="about-title">
@@ -43,4 +53,5 @@
     </section>
     </div>
 </body>
+<script src="main.js"></script>
 </html>

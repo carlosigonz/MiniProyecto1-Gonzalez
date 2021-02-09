@@ -84,3 +84,41 @@ html{
     margin-top: 4rem;
     font-size: 21px;
 }
+
+#carousel ul {
+    display:flex;
+    justify-content: space-between;
+    overflow:hidden;
+    align-items: center;
+}
+
+#carousel li{
+    display: block;
+    list-style: none;
+}
+
+#carousel .image{
+    width: 100vw;
+    height: 600px;
+}
+
+#carousel .button{
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    color: #DCDCDD;
+    background-color: #46494C;
+    border-radius: 50%;
+    width: 44px; height: 44px;
+}
+
+#prev{
+    position: absolute;
+    left: 15px; top: 400px;
+}
+
+#next{
+    position: absolute;
+    right: 15px; top: 400px;
+}
