@@ -16,8 +16,8 @@
             <ul>
                 <li><a href="#about-me">Acerca de mí</a></li>
                 <li><a href="#experience">Experiencia</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contactame!</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contactame!</a></li>
             </ul>
             </div>
         </header>
@@ -38,7 +38,7 @@
         <div class="subtitle">
             <h2>Acerca de mí</h2>
         </div>
-        <div class="about">
+        <div class="content-box">
         <div class="about-photo">
             <img src="imagenes/unimet.jpg" alt="Foto de Carlos Gonzalez" class="img-perfil">
         </div>
@@ -84,7 +84,46 @@
         </div>
         </div>
     </section>
+    <section id=skills>
+        
+    </section>
+    <section id=contact>
+        <div class="subtitle">
+            <h2>Contacto</h2>
+        </div>
+        <div class="content-box">
+            <h3>Enviame un mensaje y te responderé lo más pronto posible.</h3>
+            <form id="contact-form">
+                <div class="input-group">
+                    <label>Nombre:</label>
+                    <input required type="text" id=contact-name>
+                </div>
+                <div class="input-group">
+                    <label>Email:</label>
+                    <input required type="email" id=contact-email>
+                </div>
+                <div class="input-group">
+                    <label>Mensaje:</label>
+                    <textarea required id=contact-msj rows="4" cols="30" ></textarea>
+                </div>
+                <div class="input-group">
+                    <button id=contact-button type="submit" class="contact-button">Enviar</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
     </div>
+    <footer>
+        <div class="footer-container">
+            <h3>Carlos Gonzalez &copy;2021</h3>
+            <a href="https://wa.me/584120214658" target="_blank"><img src="imagenes/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://github.com/carlosigonz" target="_blank"><img src="imagenes/github.png" alt="Github"></a>
+            <a href="https://www.instagram.com/carlosigonzalez99/" target="_blank"><img src="imagenes/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/carlitosg99" target="_blank"><img src="imagenes/twitter.png" alt="Twitter"></a>
+        </div>
+        <div class="attribute">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </body>
 <script src="main.js"></script>
 </html>

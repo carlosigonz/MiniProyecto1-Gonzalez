@@ -72,7 +72,7 @@ html{
     margin-right: 3rem;
 }
 
-.about{
+.content-box{
     display: flex;
     background-color: #4C5C68;
     padding: 1rem;
@@ -140,6 +140,7 @@ html{
     display: flex;
     justify-content: space-between;
     padding: 5vh 3vh;
+    margin-bottom: 3rem;
 }
 
 .project-image{
@@ -153,4 +154,33 @@ html{
 }
 .project li{
     font-size: 20px;
+}
+
+.footer-container{
+    padding: 1.7rem;
+    background-color: #46494C;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.attribute{
+    background-color: #46494C;
+}
+
+#contact .content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact h3{
+    padding: 1rem 0;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
 }
