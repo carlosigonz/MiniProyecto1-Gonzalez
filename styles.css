@@ -184,3 +184,14 @@ html{
     flex-direction: column;
     padding: 1rem 0;
 }
+
+#skills .content-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.skill-group{
+    padding: 1rem 0;
+}
