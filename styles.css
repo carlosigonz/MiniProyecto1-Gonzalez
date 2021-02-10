@@ -184,3 +184,21 @@ html{
     flex-direction: column;
     padding: 1rem 0;
 }
+
+#skills .content-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.skill-group{
+    margin-top: 0;
+    background-color: #4C5C68;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#contact{
+    margin-top: 3rem;
+}
