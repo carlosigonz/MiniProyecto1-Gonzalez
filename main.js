@@ -1,5 +1,5 @@
 //Codigo para el carousel
-let liEls = document.querySelectorAll('ul li');
+let liEls = document.querySelectorAll('#carousel ul li');
 let index = 0;
 window.show = function(increase) {
   index = index + increase;
