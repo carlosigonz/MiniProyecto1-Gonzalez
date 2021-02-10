@@ -9,21 +9,21 @@ window.show = function(increase) {
 
 //Codigo verificacion form
 
-var contactName = document.getElementById("contac-name");
+var contactName = document.getElementById("contact-name");
 var contactEmail = document.getElementById("contact-email");
 var contactMsj = document.getElementById("contact-msj");
-var contactBtn = document.getElementById("contact-btn");
+var contactBtn = document.getElementById("contact-button");
 
 document.getElementById('contact-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    console.log(contactName);
-    console.log(contactEmail);
-    console.log(contactMsj);  
+    console.log(`Nombre: ${(contactName.value)}`);
+    console.log(`Email: ${(contactEmail.value)}`);
+    console.log(`Mensaje: ${(contactMsj.value)}`);  
 });
 
-// contactBtn.addEventListener('click',() =>{
-//     alert('Mensaje Enviado');
-// });
+contactBtn.addEventListener('click',() =>{
+    alert('Mensaje Enviado');
+});
 
 //skills
 
