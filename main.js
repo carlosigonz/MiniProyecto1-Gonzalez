@@ -21,13 +21,13 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     console.log(contactMsj);  
 });
 
-contactBtn.addEventListener('click',() =>{
-    alert('Mensaje Enviado');
-});
+// contactBtn.addEventListener('click',() =>{
+//     alert('Mensaje Enviado');
+// });
 
 //skills
 
-var documentoSkills = document.getElementById(skills)
+var documentoSkills = document.getElementById("skills")
 
 var habilidades = {
     "HTML":6/10,
@@ -47,7 +47,7 @@ for (i in habilidades){
     porcentaje.innerHTML = habilidades[i];
     titulo.innerHTML=i
 
-    titulo.append(porcentaje);
+    skillGroup.append(porcentaje);
     skillGroup.append(titulo);  
 
     documentoSkills.append(skillGroup);
